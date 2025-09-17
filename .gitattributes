@@ -1,0 +1,16 @@
+# Normalizes line endings to LF in the repository
+* text=auto
+
+# SVG, JS, TS, HTML, CSS files, etc.
+*.svg text
+*.js  text
+*.ts  text
+*.html text
+*.css text
+
+# 
+Binary files that should not be touched
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary

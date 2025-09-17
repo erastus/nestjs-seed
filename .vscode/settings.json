@@ -1,0 +1,4 @@
+{
+  "typescript.suggest.completeFunctionCalls": true,
+  "material-icon-theme.activeIconPack": "nest"
+}

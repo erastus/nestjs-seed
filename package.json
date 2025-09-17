@@ -1,0 +1,82 @@
+{
+  "name": "nestjs-seed",
+  "version": "0.1.0",
+  "description": "A NestJS-based starter project for creating modular, scalable, and maintainable TypeScript/JavaScript applications. nestjs-seed provides a solid foundation with best practices, an organized structure, and predefined configurations to accelerate enterprise application development and facilitate their evolution to a more comprehensive framework.",
+  "authors": [
+    "Erastus <marr0kin@hotmail.com>"
+  ],
+  "keywords": [
+    "nestjs",
+    "typescript",
+    "nodejs",
+    "starter",
+    "seed",
+    "template",
+    "boilerplate",
+    "modular",
+    "scalable",
+    "enterprise",
+    "server-side",
+    "backend"
+  ],
+  "private": false,
+  "license": "MIT",
+  "main": "build/system/system.module.js",
+  "types": "build/system/system.module.d.ts",
+  "files": [
+    "build/system",
+    "src/app"
+  ],
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node build/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./jest-e2e.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.20",
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/core": "^10.4.20",
+    "@nestjs/mapped-types": "^2.1.0",
+    "@nestjs/platform-express": "^10.4.20",
+    "@nestjs/serve-static": "^4.0.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "date-fns": "^4.1.0",
+    "pug": "^3.0.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.9",
+    "@nestjs/schematics": "^10.2.3",
+    "@nestjs/testing": "^10.4.20",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.11",
+    "@types/pug": "^2.0.10",
+    "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jest": "^29.7.0",
+    "prettier": "^3.6.2",
+    "source-map-support": "^0.5.21",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  }
+}
