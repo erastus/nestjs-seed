@@ -5,6 +5,10 @@
   "authors": [
     "Erastus <marr0kin@hotmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erastus/nestjs-seed.git"
+  },
   "keywords": [
     "nestjs",
     "typescript",
