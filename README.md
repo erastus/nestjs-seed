@@ -5,9 +5,12 @@
 <p align="center">A modern framework designed for efficient, scalable, and enterprise-grade server-side applications.</p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/v/nestjs-seed.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/l/nestjs-seed.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/dm/nestjs-seed.svg" alt="NPM Downloads" /></a>
+  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/v/nestjs-seed" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/l/nestjs-seed" alt="Package License" /></a>
+  <a href="https://www.npmjs.com/~marr0kin" target="_blank"><img src="https://img.shields.io/npm/dm/nestjs-seed" alt="NPM Downloads" /></a>
+  <a href="https://github.com/erastus/nestjs-seed" target="_blank"><img src="https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_100.svg" alt="Coverage" /></a>
+  <a href="https://github.com/erastus/nestjs-seed" target="_blank"><img src="https://img.shields.io/github/stars/erastus/nestjs-seed" alt="GitHub Stars" /></a>
+  <a href="https://github.com/erastus/nestjs-seed" target="_blank"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome" /></a>
 </p>
 
 ## Description
