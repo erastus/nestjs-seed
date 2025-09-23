@@ -38,6 +38,20 @@ With **nestjs-seed**, you can focus directly on business logic without worrying 
 $ npm install
 ```
 
+## Environment Configuration (`.env`)
+
+To configure the application, you need to create an environment variables file. This file, named **`.env`**, contains sensitive configuration values and **must not be committed to version control**.
+
+An `.env-example` file is provided with the required variables. To create your `.env` file from this template, run the following command in the project root:
+
+```bash
+$ cp .env-example .env
+```
+
+After that, open the `.env` file and adjust the values according to your environment.
+
+Refer to `.env-example` for a description of each variable and its purpose.
+
 ## Using as a Template (for new projects)
 
 If you want to start a new project using this seed:

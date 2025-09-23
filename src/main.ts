@@ -6,14 +6,12 @@ import * as path from 'path';
 import { ConfigService } from '@nestjs/config';
 import { PageNotFoundExceptionFilter } from '@system/exeptions/page-not-found-exception/page-not-found-exception.filter';
 import { Logger } from '@system/log/logger';
-import { Boot } from '@system/boot';
 import * as Constants from '@app/config/constants';
 import pug from 'pug';
 
 async function Bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   const dotEnv = app.get(ConfigService);
-  app.get(Boot).bootWeb();
 
   const SERVER_PORT = dotEnv.get<number>('SERVER_PORT');
 
