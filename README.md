@@ -35,6 +35,7 @@ With **nestjs-seed**, you can focus directly on business logic without worrying 
 ## Project setup
 
 ```bash
+# install dependencies
 $ npm install
 ```
 
@@ -45,6 +46,7 @@ To configure the application, you need to create an environment variables file. 
 An `.env-example` file is provided with the required variables. To create your `.env` file from this template, run the following command in the project root:
 
 ```bash
+# create a local .env file from the example template
 $ cp .env-example .env
 ```
 
@@ -57,56 +59,60 @@ Refer to `.env-example` for a description of each variable and its purpose.
 If you want to start a new project using this seed:
 
 1. Clone the repository (or use **Use this template**):
-   ```bash
-   git clone https://github.com/erastus/nestjs-seed my-app
-   cd my-app
-   ```
+```bash
+# clone the repository
+$ git clone https://github.com/erastus/nestjs-seed my-app
+$ cd my-app
+```
 
 2. **Optional**: remove the `src/system/` folder if you don’t plan to collaborate on the package:
-   ```bash
-   rm -rf src/system
-   ```
+```bash
+# optional: remove system folder if not collaborating on it
+$ rm -rf src/system
+```
 
 3. **If you removed** `src/system/` **in the previous step**, install the package from npm:
-   ```bash
-   npm install nestjs-seed@latest
-   ```
+```bash
+# optional: install nestjs-seed package from npm if system folder was removed
+$ npm install nestjs-seed@latest
+```
 
 4. **If you performed step 2 and 3**, configure your `tsconfig.json` to include the `node_modules/nestjs-seed` path.  
-   Example:
-   ```json
-   {
-     "compilerOptions": {
-       "paths": {
-         "system/*": ["../node_modules/nestjs-seed/build/system/*"]
-       }
-     }
-   }
-   ```
+  Example:
+  ```json
+  {
+    "compilerOptions": {
+      "paths": {
+        "system/*": ["../node_modules/nestjs-seed/build/system/*"]
+      }
+    }
+  }
+  ```
 
 5. **If you performed step 2 and 3**, configure your `jest-e2e.json` to include the `node_modules/nestjs-seed` path.  
-   Example:
-   ```json
-   {
-     "moduleNameMapper": {
+  Example:
+  ```json
+  {
+    "moduleNameMapper": {
       "^@system/(.*)$": "<rootDir>/node_modules/nestjs-seed/build/system/$1"
     }
-   }
-   ```
+  }
+  ```
 
 6. Start coding your application
 
 ## Lint / Code Quality
 
 ```bash
-npm run lint
+# run lint checks
+$ npm run lint
 ```
 
 ## Build / Compile
 
 ```bash
 # build the project for production
-npm run build
+$ npm run build
 ```
 
 ## Run / Start the project
